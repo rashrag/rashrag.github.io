@@ -209,22 +209,30 @@ p.footer-class a:hover{
 	overflow:hidden;
 	
 }
+.prafwrapper{
+	background:rgba(45, 184, 183, 0.81);
+	opacity: 0.5;	
+	text-align: center;
+	visibility: visible;
+	border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.texthead{
+	text-align: left;
+	font-size: 25px;
+    margin-top: 0;
+    font-family:helvetica;
+    font-color: #6495ED;
+    text-shadow: 0 1px 0 white;
+}
 /*	Animation effects*/
 .b-animate-go{
 	text-decoration:none;
 }
-.b-animate{
-	transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	-ms-transition: all 0.5s;
-	-o-transition: all 0.5s;
-	-webkit-transition: all 0.5s;
-	visibility: hidden;
-}
-.b-animate img{
-	margin-top: 4%;
-	display: -webkit-inline-box;
-}
+
+
 .b-animate span{
 	display:block;
 	font-size: 1.7em;
@@ -1200,7 +1208,7 @@ ul.date li i {
   margin: 0 2px 0 0;
 }
 .header-left {
-  min-height: 864px;
+  min-height: 1000px;
 }
 p.footer-class {
   font-size: 0.8em;
@@ -1218,7 +1226,7 @@ p.footer-class {
 	min-height: 969px;
 }
 .header-left3 {
-  min-height: 1612px;
+  min-height: 1700px;
 }
 .four {
   min-height: 464px;
